@@ -25,7 +25,7 @@ def build_effienet_unet(input_shape):
     """ Pre-trained Encoder """
     encoder = EfficientNetB0(include_top=False, weights="imagenet", input_tensor=inputs)
 
-    s1 = encoder.get_layer("input_1").output                      ## 256
+    s1 = encoder.get_layer("input_layer").output                      ## 256
     s2 = encoder.get_layer("block2a_expand_activation").output    ## 128
     s3 = encoder.get_layer("block3a_expand_activation").output    ## 64
     s4 = encoder.get_layer("block4a_expand_activation").output    ## 32
