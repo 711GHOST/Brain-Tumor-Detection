@@ -1,6 +1,6 @@
 opencv-python
+opencv-contrib-python
 Pillow
 streamlit
 tensorflow
 matplotlib
-opencv-contrib-python
