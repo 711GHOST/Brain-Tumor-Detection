@@ -3,3 +3,4 @@ Pillow==7.0.0
 streamlit==0.80.0
 tensorflow==2.6.0
 matplotlib
+opencv-contrib-python
