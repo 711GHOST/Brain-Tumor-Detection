@@ -106,6 +106,9 @@ def final_fun_1(image_path):
     return combined_img
 
 
+uploaded_file = st.file_uploader("Choose an MRI image", accept_multiple_files=False) 
+
+# Logic to process the image
 if uploaded_file is not None:
     try:
         image_path = uploaded_file
@@ -114,3 +117,4 @@ if uploaded_file is not None:
 
     except Exception as e:
         st.error("An error occurred while processing the image: {}".format(e)) 
+
