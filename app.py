@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import time
 from PIL import Image
-import cv2.cv2 as cv2
+import cv2
 import matplotlib.pyplot as plt
 import os
 import random
