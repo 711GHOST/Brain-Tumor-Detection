@@ -2,7 +2,6 @@ streamlit
 numpy
 pandas
 Pillow
-opencv-python
 matplotlib
 tensorflow
 opencv-python-headless
